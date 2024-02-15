@@ -4,7 +4,8 @@ name: Check for Cheaper flight!!
 on:
   schedule:
 #    - cron: '15 20 * * *'
-    - cron: '00 06 * * *'
+#    - cron: '00 06 * * *'
+    - cron: '00 06,18 * * *'
   workflow_dispatch:
 jobs:
   test:
