@@ -7,7 +7,7 @@ const flightData = [
     departCityCode: 'IND',
     arriveCityCode: 'MCO',
     departDate: '3/16',
-    thresholdPrice: 196, //You'll get alert if price goes below this
+    thresholdPrice: 175, //You'll get alert if price goes below this
     flights: [
 	  ['2427'],
 	  ['1008'],
